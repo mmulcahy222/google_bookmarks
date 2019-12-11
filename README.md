@@ -153,7 +153,7 @@ Here is a picture of links being removed from Google Bookmarks
 
 ![](images/remove.jpg)
 
-I'll put up a piece key of code that I made myself that will search through an entire nested Dictionary Structure to just zero into the part of Google Bookmarks to change. Remember, extracting a part of a very nested dictionary will change the main dictionary as Python Dictionaries are immutable
+There was only two links in this demonstration but it can go up to hundreds or unlimited. I'll put up a piece key of code that I made myself that will search through an entire nested Dictionary Structure to just zero into the part of Google Bookmarks to change. Remember, extracting a part of a very nested dictionary will change the main dictionary as Python Dictionaries are immutable
 
 ```python
 def search_structure(self,structure, search='',depth=-1):
